@@ -15,7 +15,7 @@ ADDONTITLE     = '[B][COLOR slateblue]Voltage[/COLOR][/B] Wizard'
 BUILDERNAME    = 'Voltage'
 EXCLUDES       = [ADDON_ID, 'repository.aftermath']
 # Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
-CACHETEXT      = 'Yes'
+CACHETEXT      = 'No'
 CACHEAGE       = 30
 # Text File with build info in it.
 BUILDFILE      = 'https://kodikbxy.000webhostapp.com/builds.txt'
