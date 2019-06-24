@@ -1,4 +1,5 @@
 2
 |||
 
-A few new additions
+Testing notifications
+Added a new Auramod additional skin to check out
