@@ -114,7 +114,7 @@ REPOZIPURL     = 'https://raw.githubusercontent.com/drinfernoo/repository.afterm
 # Enable Notification screen Yes or No
 ENABLE         = 'Yes'
 # Url to notification file
-NOTIFICATION   = 'https://kodikbxy.000webhostapp.com/notify.txt'
+NOTIFICATION   = 'http://'
 # Use either 'Text' or 'Image'
 HEADERTYPE     = 'Text'
 # Font size of header
