@@ -18,7 +18,7 @@ EXCLUDES       = [ADDON_ID, 'repository.aftermath']
 CACHETEXT      = 'No'
 CACHEAGE       = 30
 # Text File with build info in it.
-BUILDFILE      = 'https://kodikbxy.000webhostapp.com/builds.txt'
+BUILDFILE      = 'https://kb88xy.000webhostapp.com/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
