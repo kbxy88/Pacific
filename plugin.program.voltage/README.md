@@ -1,9 +1,9 @@
-# plugin.program.aftermath
-Aftermath Wizard
+# plugin.program.openwizard
+OpenWizard
 
-Aftermath Wizard was created to help the Kodi community out and help get rid of the broken personal wizards that are floating around. As this is a work in progress, I would highly recommend the use of a repository, but if you prefer not to, there is a built-in auto-updater.
+OpenWizard was created to help the Kodi community out and help get rid of the broken personal wizards that are floating around. As this is a work in progress, a repository is highly recommended, but if you prefer not to, there is a built-in auto-updater.
 
-For more information on how to edit/customize this wizard for your own usage, please read [the wiki](https://github.com/drinfernoo/plugin.program.aftermath/wiki).
+For more information on how to edit/customize this wizard for your own usage, please read [the wiki](https://github.com/drinfernoo/plugin.program.openwizard/wiki).
 
 Currently, this version of the wizard supports:
 
@@ -15,13 +15,12 @@ Currently, this version of the wizard supports:
 | Gaia                               | [x]            | [x]   | [x]         | [x]        |           | [x]  |      |      | [x]  | [x]       |          |                         |
 | IAGL                               |                |       |             |            |           |      |      |      |      |           |          | [x]                     |
 | Netflix                            |                |       |             |            |           |      |      |      |      |           |          | [x]                     |
+| NuMb3r5                            | [x]            | [x]   |             |            |           | [x]  |      |      | [x]  | [x]       |          |                         |
 | OpenInfo                           | [x]            |       |             |            |           | [x]  |      |      |      |           |          |                         |
 | OpenMeta                           | [x]            | [x]   |             |            | [x]       | [x]  | [x]  |      |      |           |          |                         |
 | OpenSubtitles.org                  |                |       |             |            |           |      |      |      |      |           |          | [x]                     |
 | OpenSubtitles.org by OpenSubtitles |                |       |             |            |           |      |      |      |      |           |          | [x]                     |
 | Orion                              |                |       |             |            |           |      |      |      |      |           |          | [x]                     |
-| Overeasy                           | [x]            | [x]   |             |            |           | [x]  |      |      | [x]  | [x]       |          |                         |
-| Placenta                           | [x]            | [x]   |             |            |           | [x]  |      |      | [x]  | [x]       |          |                         |
 | Premiumizer                        |                | [x]   |             | [x]        |           | [x]  | [x]  |      | [x]  | [x]       |          |                         |
 | Realizer                           |                | [x]   | [x]         |            |           | [x]  | [x]  |      | [x]  | [x]       |          |                         |
 | metahandler                        |                |       |             |            |           | [x]  | [x]  | [x]  |      |           |          |                         |
@@ -30,6 +29,7 @@ Currently, this version of the wizard supports:
 | Scrubs v2                          | [x]            | [x]   |             |            |           | [x]  |      |      | [x]  | [x]       |          |                         |
 | Seren                              | [x]            | [x]   | [x]         | [x]        | [x]       | [x]  | [x]  |      |      |           |          |                         |
 | simplecache                        | [x]            |       |             |            |           |      |      |      |      |           |          |                         |
+| THE CREW                           | [x]            | [x]   |             |            |           | [x]  |      |      | [x]  | [x]       |          |                         |
 | Trakt                              |                | [x]   |             |            |           |      |      |      |      |           |          |                         |
 | URLResolver                        | [x]            |       | [x]         | [x]        |           |      |      |      |      |           |          |                         |
 | WonderfulSubs                      |                |       |             |            |           |      |      |      |      |           |          | [x]                     |
