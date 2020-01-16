@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.kbxy88" name="Pacific" version="1.3" provider-name="Kbxy88">
-    <extension point="xbmc.addon.repository" name="Pacific Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Pacific</summary>
-        <description>Spreading the basic repo around the group</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="plugin.program.voltage" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard" version="1.2.0" provider-name="Kbxy88">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
@@ -114,4 +94,24 @@
   </extension>
 </addon>
 </addons>
+
+<addon id="repository.kbxy88" name="Pacific" version="1.3" provider-name="Kbxy88">
+    <extension point="xbmc.addon.repository" name="Pacific Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Pacific</summary>
+        <description>Spreading the basic repo around the group</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 </addons>
