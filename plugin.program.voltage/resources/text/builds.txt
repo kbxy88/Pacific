@@ -1,5 +1,5 @@
 name="Hybrid1"
-version="4.0"
+version="4.2"
 url="https://voltage88.000webhostapp.com/Archive.zip"
 minor="http://"
 gui="http://"

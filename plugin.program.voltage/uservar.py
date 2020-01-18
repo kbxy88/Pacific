@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR limegreen][B]Voltage[/B][/COLOR]Wizard'
 BUILDERNAME = 'Voltage'
 EXCLUDES = [ADDON_ID, 'repository.openwizard']
 # Text File with build info in it.
-BUILDFILE = 'https://voltage88.000webhostapp.com/builds.txt'
+BUILDFILE = 'http://voltagekb88.xyz/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
