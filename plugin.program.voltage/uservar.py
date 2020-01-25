@@ -14,7 +14,7 @@ ART = os.path.join(PATH, 'resources', 'media')
 #        User Edit Variables                            #
 #########################################################
 ADDONTITLE = '[COLOR limegreen][B]Voltage[/B][/COLOR]Wizard'
-BUILDERNAME = 'Voltage
+BUILDERNAME = 'Voltage'
 EXCLUDES = [ADDON_ID, 'repository.openwizard']
 # Text File with build info in it.
 BUILDFILE = 'http://voltagekb88.xyz/builds.txt'
