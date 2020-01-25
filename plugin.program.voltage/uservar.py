@@ -15,9 +15,9 @@ ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 ADDONTITLE = '[COLOR limegreen][B]Voltage[/B][/COLOR]Wizard'
 BUILDERNAME = 'Voltage
-EXCLUDES = [ADDON_ID, 'http://voltagekb88.xyz/builds.txt']
+EXCLUDES = [ADDON_ID, 'repository.openwizard']
 # Text File with build info in it.
-BUILDFILE = 'http://'
+BUILDFILE = 'http://voltagekb88.xyz/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
