@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.voltage" name="[COLOR limegreen][B]Open[/B][/COLOR]Wizard" version="1.5.0" provider-name="Kbxy88">
+<addon id="repository.kbxy88" name="Pacific" version="1.3" provider-name="Kbxy88">
+    <extension point="xbmc.addon.repository" name="Pacific Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Pacific</summary>
+        <description>Spreading the basic repo around the group</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.program.voltage" name="[COLOR limegreen][B]OpenVolage[/B][/COLOR]Wizard" version="1.6.0" provider-name="Kbxy88">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
@@ -20,6 +40,32 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://www.github.com/drinfernoo/plugin.program.openwizard/</source>
         <news>
+        1.2.9
+         - Fix NuMb3r5 cache clearing
+         - Fix hang during repo force check
+         - Fix logins being restored every startup
+         - Fix some file permission errors
+         - Fix OS X backup errors
+        1.2.8
+         - Add Gaia PM OAuth
+         - Fix binary add-on restoration
+         - Fix some issues with old settings
+         - Fix timing on many startup tasks
+        1.2.7
+         - Add TheMovieDb Helper
+        1.2.6
+         - Fix Seren PM OAuth
+        1.2.5
+         - Fix typo in debridit.py
+        1.2.4
+         - Cover more edge cases during binary detection
+        1.2.3
+         - Fix notification ID bug
+        1.2.2
+         - Add Seren PM OAuth
+         - Add AllDebrid spport for Gaia, Seren, ResolveURL, and URLResolver
+        1.2.1
+         - General bug fixes
         1.2.0
          - Silence save data notifications on startup
          - Fix Addon Installer menu
@@ -94,24 +140,4 @@
   </extension>
 </addon>
 </addons>
-
-<addon id="repository.kbxy88" name="Pacific" version="1.3" provider-name="Kbxy88">
-    <extension point="xbmc.addon.repository" name="Pacific Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Kbxy88/Pacific/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Pacific</summary>
-        <description>Spreading the basic repo around the group</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
 </addons>

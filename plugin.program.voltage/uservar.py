@@ -7,17 +7,17 @@ import os
 #########################################################
 ADDON_ID = xbmcaddon.Addon().getAddonInfo('id')
 PATH = xbmcaddon.Addon().getAddonInfo('path')
-ART = os.path.join(PATH, 'resources', 'art')
+ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 
 #########################################################
 #        User Edit Variables                            #
 #########################################################
 ADDONTITLE = '[COLOR limegreen][B]Voltage[/B][/COLOR]Wizard'
-BUILDERNAME = 'Voltage'
-EXCLUDES = [ADDON_ID, 'repository.openwizard']
+BUILDERNAME = 'Voltage
+EXCLUDES = [ADDON_ID, 'http://voltagekb88.xyz/builds.txt']
 # Text File with build info in it.
-BUILDFILE = 'http://voltagekb88.xyz/builds.txt'
+BUILDFILE = 'http://'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -87,9 +87,7 @@ CONTACTFANART = 'http://'
 #        Auto Update For Those With No Repo             #
 #########################################################
 # Enable Auto Update 'Yes' or 'No'
-AUTOUPDATE = 'No'
-# Url to wizard version
-WIZARDFILE = BUILDFILE
+AUTOUPDATE = 'NO'
 #########################################################
 
 #########################################################
